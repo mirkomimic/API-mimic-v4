@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "deac99fce46b8cbd552f521c4fe7a61e",
+    "packages": [
+        {
+            "name": "emrancu/dependency-injection-container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emrancu/php-dependency-injection-container.git",
+                "reference": "5b424ee7d98ef1a05940b60b97063271352077b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emrancu/php-dependency-injection-container/zipball/5b424ee7d98ef1a05940b60b97063271352077b6",
+                "reference": "5b424ee7d98ef1a05940b60b97063271352077b6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlEmran\\PHPDependencyInjection\\": "src/"
+                },
+                "classmap": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AL EMRAN",
+                    "email": "emrancu1@gmail.com"
+                }
+            ],
+            "description": "A dependency injection container for php",
+            "homepage": "https://github.com/emrancu/php-dependency-injection-container",
+            "keywords": [
+                "A dependency injection container for php",
+                "Initiate Class and method with dependency ",
+                "Laravel Dependency Injection Understanding",
+                "PHP Dependency Injection"
+            ],
+            "support": {
+                "issues": "https://github.com/emrancu/php-dependency-injection-container/issues",
+                "source": "https://github.com/emrancu/php-dependency-injection-container"
+            },
+            "time": "2021-02-21T04:22:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,58 @@
+{
+    "packages": [
+        {
+            "name": "emrancu/dependency-injection-container",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emrancu/php-dependency-injection-container.git",
+                "reference": "5b424ee7d98ef1a05940b60b97063271352077b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emrancu/php-dependency-injection-container/zipball/5b424ee7d98ef1a05940b60b97063271352077b6",
+                "reference": "5b424ee7d98ef1a05940b60b97063271352077b6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "time": "2021-02-21T04:22:41+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "AlEmran\\PHPDependencyInjection\\": "src/"
+                },
+                "classmap": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AL EMRAN",
+                    "email": "emrancu1@gmail.com"
+                }
+            ],
+            "description": "A dependency injection container for php",
+            "homepage": "https://github.com/emrancu/php-dependency-injection-container",
+            "keywords": [
+                "A dependency injection container for php",
+                "Initiate Class and method with dependency ",
+                "Laravel Dependency Injection Understanding",
+                "PHP Dependency Injection"
+            ],
+            "support": {
+                "issues": "https://github.com/emrancu/php-dependency-injection-container/issues",
+                "source": "https://github.com/emrancu/php-dependency-injection-container"
+            },
+            "install-path": "../emrancu/dependency-injection-container"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
